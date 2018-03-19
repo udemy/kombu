@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
 
 import sys
 import os
@@ -102,3 +103,35 @@ html_sidebars = {
     '**': ['sidebarlogo.html', 'localtoc.html', 'relations.html',
            'sourcelink.html', 'searchbox.html'],
 }
+=======
+from __future__ import absolute_import, unicode_literals
+
+from sphinx_celery import conf
+
+globals().update(conf.build_config(
+    'kombu', __file__,
+    project='Kombu',
+    version_dev='4.2',
+    version_stable='4.1',
+    canonical_url='http://docs.kombu.me',
+    webdomain='kombu.me',
+    github_project='celery/kombu',
+    author='Ask Solem & contributors',
+    author_name='Ask Solem',
+    copyright='2009-2016',
+    publisher='Celery Project',
+    html_logo='images/kombusmall.jpg',
+    html_favicon='images/favicon.ico',
+    html_prepend_sidebars=['sidebardonations.html'],
+    extra_extensions=['sphinx.ext.napoleon'],
+    apicheck_ignore_modules=[
+        'kombu.entity',
+        'kombu.messaging',
+        'kombu.asynchronous.aws.ext',
+        'kombu.asynchronous.aws.sqs.ext',
+        'kombu.transport.qpid_patches',
+        'kombu.utils',
+        'kombu.transport.virtual.base',
+    ],
+))
+>>>>>>> 75695205... Rename `async` keyword to `asynchronous` (#839)

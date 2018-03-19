@@ -61,7 +61,13 @@ def set_event_loop(loop):
 class Hub(object):
     """Event loop object.
 
+<<<<<<< HEAD:kombu/async/hub.py
     :keyword timer: Specify timer object.
+=======
+    Arguments:
+        timer (kombu.asynchronous.Timer): Specify custom timer instance.
+    """
+>>>>>>> 75695205... Rename `async` keyword to `asynchronous` (#839):kombu/asynchronous/hub.py
 
     """
     #: Flag set if reading from an fd will not block.

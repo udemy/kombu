@@ -22,12 +22,30 @@
     kombu.compression
     kombu.pools
     kombu.abstract
+<<<<<<< HEAD
     kombu.syn
     kombu.async
     kombu.async.hub
     kombu.async.semaphore
     kombu.async.timer
     kombu.async.debug
+=======
+    kombu.resource
+    kombu.asynchronous
+    kombu.asynchronous.hub
+    kombu.asynchronous.semaphore
+    kombu.asynchronous.timer
+    kombu.asynchronous.debug
+    kombu.asynchronous.http
+    kombu.asynchronous.http.base
+    kombu.asynchronous.http.curl
+    kombu.asynchronous.aws
+    kombu.asynchronous.aws.connection
+    kombu.asynchronous.aws.sqs
+    kombu.asynchronous.aws.sqs.connection
+    kombu.asynchronous.aws.sqs.message
+    kombu.asynchronous.aws.sqs.queue
+>>>>>>> 75695205... Rename `async` keyword to `asynchronous` (#839)
     kombu.transport
     kombu.transport.pyamqp
     kombu.transport.librabbitmq

@@ -1,11 +1,11 @@
 ==========================================================
- Debugging Utils - kombu.async.debug
+ Async pyCurl HTTP Client - ``kombu.asynchronous.http.curl``
 ==========================================================
 
 .. contents::
     :local:
-.. currentmodule:: kombu.async.debug
+.. currentmodule:: kombu.asynchronous.http.curl
 
-.. automodule:: kombu.async.debug
+.. automodule:: kombu.asynchronous.http.curl
     :members:
     :undoc-members:

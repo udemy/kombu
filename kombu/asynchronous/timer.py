@@ -143,10 +143,17 @@ class Timer(object):
     def enter_at(self, entry, eta=None, priority=0, time=time):
         """Enter function into the scheduler.
 
+<<<<<<< HEAD:kombu/async/timer.py
         :param entry: Item to enter.
         :keyword eta: Scheduled time as a :class:`datetime.datetime` object.
         :keyword priority: Unused.
 
+=======
+        Arguments:
+            entry (~kombu.asynchronous.timer.Entry): Item to enter.
+            eta (datetime.datetime): Scheduled time.
+            priority (int): Unused.
+>>>>>>> 75695205... Rename `async` keyword to `asynchronous` (#839):kombu/asynchronous/timer.py
         """
         if eta is None:
             eta = time()
