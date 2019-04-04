@@ -4,7 +4,15 @@
  Change history
 ================
 
-.. _version-3.0.37:
+.. _version-3.0.37.ud1.rc2:
+
+3.0.37.ud1.rc2:
+======
+- Version bump
+
+3.0.37.ud1.rc1:
+======
+- Python 3.7 support
 
 3.0.37
 ======
