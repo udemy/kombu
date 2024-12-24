@@ -43,7 +43,9 @@ TRANSPORT_ALIASES = {
     'etcd': 'kombu.transport.etcd:Transport',
     'azurestoragequeues': 'kombu.transport.azurestoragequeues:Transport',
     'azureservicebus': 'kombu.transport.azureservicebus:Transport',
-    'pyro': 'kombu.transport.pyro:Transport'
+    'pyro': 'kombu.transport.pyro:Transport',
+    'gcpubsub': 'kombu.transport.gcpubsub:Transport',
+    'rediscluster': 'kombu.transport.rediscluster:Transport',
 }
 
 _transport_cache = {}
